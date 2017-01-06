@@ -1,126 +1,119 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Kirsch Portfolio</title>
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" media="all" type="text/css">
-    <title>The Kirsch Portfolio</title>
   </head>
-  <body class="index">
-    <div class="welcome container panel panel-success">
-      <div class="col-md-4">
-        <img src="img/old-man-rl.jpg" alt="A picture of the Old Man in the Mountain" class="contain-image img-sculpt"/>
+  <body>
+    <div class="welcome">
+      <div class="center-align">
+        <img class="circle-img" src="img/old-man-rl.jpg" alt="A picture of the old man in the mountain" />
       </div>
-      <div class="col-md-8">
-        <h1 class="panel panel-heading">Sam Kirsch</h1>
-        <h3 class="indent">Developing Developer</h3>
+      <div class="slide-up">
+        <h1 class="spread center-align"><strong>Sam Kirsch</strong></h1>
+        <h2 class="spread center-align"><em>Developing Developer</em></h2>
       </div>
     </div>
-    <div class="about container panel panel-default">
-      <div class="banner">
-        <h2><em class="required">About Me</em></h2>
+    <div class="general-pad">
+      <div class="about col-sm-3 panel panel-primary">
+        <h2 class="panel-heading">About Me</h2>
+        <div class="panel-body panel-primary">
+          <p>
+            I am an epicodus student aspiring to become a professional developer, bright-eyed and bushy tailed to the field of programming.
+          </p>
+          <p>
+            I graduated from Whitman College in 2014, and have spent all my summers since working on wildland fire crews in Colorado and Oregon. Wildland firefighting is seasonal work, so I spent my winters travelling, skiing, backpacking, and trying to teach myself skills that would provide more consistent employment than just being good with a chainsaw and shovel. I stumbled across coding, and taught myself a bit of python before deciding that programming was a field I would enjoy pursuing further.
+          </p>
+          <ol><span class="req-other">Some of my favorite things, in no particular order:</span>
+            <li>Outdoor endeavors</li>
+            <li>Literary pursuits</li>
+            <li>Biking through traffic</li>
+            <li>Games of all sorts</li>
+          </ol>
+          <p>
+            I'm incredibly excited for Epicodus and so far have been blown away by the pace of learning and retention through the program.
+          </p>
+        </div>
+        <p class="resume-link">
+          <a href="resume.html">Check out my resume!</a>
+        </p>
       </div>
-      <p>
-        I am an epicodus student <span class="required">aspiring</span> to become a professional developer, new enough to the field of programming that most things hold <span class="required">fresh magic</span>.
-      </p>
-      <p>
-        I graduated from <strong class="required">Whitman College</strong> in 2014, and have spent all my summers since working on wildland fire crews in Colorado and Oregon. Wildland firefighting is seasonal work, so I spent my winters travelling, skiing, backpacking, and trying to teach myself skills that would provide more consistent employment than just being good with a chainsaw and shovel. I stumbled across coding, and taught myself a bit of python before deciding that programming was a field I would enjoy pursuing further.
-      </p>
-      <ol class="required">Some of my favorite things, in no particular order:
-        <li>Outdoor endeavors</li>
-        <li>Literary pursuits</li>
-        <li>Biking through traffic</li>
-        <li>Games of all sorts</li>
-      </ol>
-      <p>
-        I'm incredibly excited for Epicodus and so far have been blown away by the pace of learning and retention through the program.
-      </p>
-      <p>
-        <a href="resume.html">Check out my resume!</a>
-      </p>
+      <div class="projects col-sm-9">
+        <h3 class="proj-title">Here are some examples of projects I've worked on while learning to code:</h3>
+        <div class="row panel-group">
+          <div class="col-sm-4">
+            <div class="project panel-primary">
+              <h4 class="panel-heading">Resort Website</h4>
+              <a href="https://github.com/denalisk/resort"><img src="img/resort.png" alt="A picture of a webpage" /></a>
+              <p>The Whoville Hotel</p>
+              <ul>
+                <li>A site made for a fictional resort, with various pages to help guests decide whether or not to visit.</li>
+                <li>Written in HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 middle-col">
+            <div class="project panel-primary">
+              <h4 class="panel-heading panel-primary">Boring Lecture Site</h4>
+              <a href="https://github.com/denalisk/lecture"><img src="img/lecture.png" alt="A picture of a webpage" /></a>
+              <p>Prof. Somnus's Lecture Series</p>
+              <ul>
+                <li>A simple website made to practice utilizing lorem ipsum text, with a simple format and intra-page anchors.</li>
+                <li>Written in HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="project panel-primary">
+              <h4 class="panel-heading panel-primary">Cupcakery Site</h4>
+              <a href="https://github.com/denalisk/cupcake"><img src="img/cupcakes.png" alt="A picture of a webpage" /></a>
+              <p>Themed Cupcakes</p>
+              <ul>
+                <li>A website made for a fictional bakery, showcasing a variety of cupcakes.</li>
+                <li>Written in HTML</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="project panel-primary">
+              <h4 class="panel-heading panel-primary">Interior Design Site</h4>
+              <a href="https://github.com/denalisk/interior"><img src="img/interior.png" alt="A picture of a webpage" /></a>
+              <p>The Inner Design</p>
+              <ul>
+                <li>A simple website made for a fictional interior design agency.</li>
+                <li>Written in HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 middle-col">
+            <div class="project panel-primary">
+              <h4 class="panel-heading panel-primary">Animal Shelter Site</h4>
+              <a href="https://github.com/denalisk/shelter"><img src="img/shelter.png" alt="A picture of a webpage" /></a>
+              <p>Helter Shelter</p>
+              <ul>
+                <li>A website made for a fictional animal adoption agency to practice with divs, floats, and media queries. Best viewed on a large screen.</li>
+                <li>Written in HTML</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="project panel-primary">
+              <h4 class="panel-heading panel-primary">Attempted Wikipedia Rebuild</h4>
+              <a href="https://github.com/denalisk/wiki"><img src="img/wiki1.png" alt="A picture of a webpage" /></a>
+              <p>Wiki Redux</p>
+              <ul>
+                <li>A website attempting to reproduce the styling on the wikipedia homepage using basic bootstrap CSS elements.</li>
+                <li>Written in HTML</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="projects container">
-      <h3>Check out these projects I've built as part of learning to code</h3>
-      <div class="row proj-row">
-        <div class="col-md-4 proj-col">
-          <div class="proj-img-container">
-            <a href="https://github.com/denalisk/resort">
-              <img class="img-sculpt contain-image" src="img/resort.png" alt="A screenshot of the homepage" />
-          </div>
-          </a>
-          <p>A Resort Website</p>
-          <ul>
-            <li>A website made for a fictional resort, with various pages to help guests decide whether or not to visit.</li>
-            <li>Written in HTML</li>
-          </ul>
-        </div>
-        <div class="col-md-4 proj-col">
-          <div class="proj-img-container">
-            <a href="https://github.com/denalisk/lecture">
-              <img class="img-sculpt contain-image" src="img/lecture.png" alt="A screenshot of the homepage" />
-          </div>
-          </a>
-          <p>A Boring Lecture</p>
-          <ul>
-            <li>A simple website made to practice utilizing lorem ipsum text, with a simple format and intra-page anchors.</li>
-            <li>Written in HTML</li>
-          </ul>
-        </div>
-        <div class="col-md-4 proj-col">
-          <div class="proj-img-container">
-            <a href="https://github.com/denalisk/cupcake">
-              <img class="img-sculpt contain-image" src="img/cupcakes.png" alt="A screenshot of the homepage" />
-          </div>
-          </a>
-          <p>A Cupcake Website</p>
-          <ul>
-            <li>A website made for a fictional bakery, showcasing a variety of cupcakes.</li>
-            <li>Written in HTML</li>
-          </ul>
-        </div>
-
-      </div>
-      <div class="row proj-row">
-        <div class="col-md-4 proj-col">
-          <div class="proj-img-container">
-            <a href="https://github.com/denalisk/interior">
-              <img class="img-sculpt contain-image" src="img/interior.png" alt="A screenshot of the homepage" />
-          </div>
-          </a>
-          <p>An Interior Design Website</p>
-          <ul>
-            <li>A simple website made for a fictional interior design agency.</li>
-            <li>Written in HTML</li>
-          </ul>
-        </div>
-        <div class="col-md-4 proj-col">
-          <div class="proj-img-container">
-            <a href="https://github.com/denalisk/shelter">
-              <img class="img-sculpt contain-image" src="img/shelter.png" alt="A screenshot of the homepage" />
-          </div>
-          </a>
-          <p>An Animal Shelter Website</p>
-          <ul>
-            <li>A website made for a fictional animal shelter to practice with divs, floats, and media queries. Best viewed on a large screen.</li>
-            <li>Written in HTML</li>
-          </ul>
-        </div>
-        <div class="col-md-4 proj-col">
-          <div class="proj-img-container">
-            <a href="https://github.com/denalisk/wiki">
-              <img class="img-sculpt contain-image" src="img/wiki1.png" alt="A screenshot of the homepage" />
-          </div>
-          </a>
-          <p>An Attempted Wikipedia Rebuild</p>
-          <ul>
-            <li>A website attempting to reproduce the styling on the wikipedia homepage using basic bootstrap CSS elements.</li>
-            <li>Written in HTML</li>
-          </ul>
-        </div>
-
-      </div>
-
-    </div>
-
+    <h6 class="required">Thanks for visiting. Copyright (c) 2017 Sam Kirsch and other attributed authors. Licensed under the MIT license.</h6>
   </body>
 </html>
