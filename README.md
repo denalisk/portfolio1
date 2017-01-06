@@ -19,7 +19,7 @@
 * CSS
 * git
 
-[gh-pages link for this project](denalisk.github.io/portfolio1)
+[gh-pages link for this project](https://denalisk.github.io/portfolio1)
 
 ##### Copyright (c) 2017 Sam Kirsch.
 
