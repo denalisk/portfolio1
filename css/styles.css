@@ -1,8 +1,13 @@
 body {
-  background: linear-gradient(90deg, #a5c8d1, #88e0d3);
-  background-size: cover;
   font-family: Georgia;
   font-size: 16px;
+}
+
+
+
+body.index {
+  background: linear-gradient(90deg, #a5c8d1, #88e0d3);
+  background-size: cover;
 }
 
 
@@ -16,6 +21,15 @@ body {
 
 h1.panel {
   background-color: #c3e5c0;
+}
+
+.banner {
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 0px;
+  border-bottom: 2px solid darkblue;
+  border-radius: 5%;
 }
 
 .img-sculpt {
@@ -52,4 +66,19 @@ h1.panel {
 
 a img:hover {
   box-shadow: 5px 5px black;
+}
+
+.required {
+  color: darkblue;
+  text-shadow: 1px 1px gray;
+}
+
+ol li {
+  margin-left: 35px;
+  padding: 2px;
+}
+
+.back-button {
+  padding: 10px;
+  font-size: 25px;
 }
