@@ -1,3 +1,34 @@
+.about {
+  float: right;
+}
+
+.project {
+  height: 100%;
+}
+
+.project img {
+  width: 100%;
+}
+
+.welcome {
+  background: url(http://www.planetware.com/photos-large/USNH/usa-new-hampshire-appalachian-trail.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*BEGIN OLD STYLESHEET*/
+
 body {
   font-family: Georgia;
   font-size: 16px;
