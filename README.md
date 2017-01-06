@@ -19,6 +19,8 @@
 * CSS
 * git
 
+[gh-pages link for this project](denalisk.github.io/portfolio1)
+
 ##### Copyright (c) 2017 Sam Kirsch.
 
 ##### Licensed under the MIT license.
