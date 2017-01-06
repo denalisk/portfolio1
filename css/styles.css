@@ -10,6 +10,15 @@
   }
 }
 
+@media (max-width: 770px) {
+  .project {
+    border-bottom: 2px dashed darkblue;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+
 body {
   font-family: trebuchet;
   font-size: 16px;
@@ -17,6 +26,17 @@ body {
 
 a img:hover {
   box-shadow: 5px 5px black;
+}
+
+.about ol {
+  background: rgba(204, 211, 224, 0.5);
+  border-radius: 5%;
+  padding: 5px;
+}
+
+.about li {
+  list-style: circle;
+  margin-left: 25px;
 }
 
 .back-button {
@@ -45,8 +65,8 @@ a img:hover {
   width: 45%;
 }
 
-.project {
-  
+.general-pad {
+  padding: 25px;
 }
 
 .project img {
@@ -55,13 +75,48 @@ a img:hover {
   margin-bottom: 10px;
 }
 
-.project p, .project ul {
+.project p, .project ul, .proj-title {
   font-family: monospace;
+}
 
+.project p {
+  font-size: 20px;
+}
+
+.project p {
+  text-decoration: underline;
+  background: rgba(225, 243, 244, 0.70);
+  border-radius: 10%;
+  text-align: center;
+}
+
+.proj-title {
+  border-top: 2px dashed darkblue;
+  border-right: 2px dashed darkblue;
+  border-left: 2px dashed darkblue;
+  padding-left: 10px;
+}
+
+.req-other, .resume-link {
+  color: darkblue;
+  text-shadow: 1px 1px gray;
 }
 
 .required {
-  float: right;
+  color: darkblue;
+  text-shadow: 1px 1px gray;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 100px;
+}
+
+.resume-link {
+  text-align: center;
+  font-size: 25px;
+  background: yellow;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7%;
 }
 
 .slide-up {
