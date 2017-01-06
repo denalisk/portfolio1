@@ -1,5 +1,24 @@
+body {
+  font-family: trebuchet;
+  font-size: 16px;
+}
+
 .about {
   float: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.circle-img {
+  margin-top: 15px;
+  border-radius: 50%;
+  width: 45%;
+}
+
+.jumbotron {
+  background: none;
 }
 
 .project {
@@ -10,11 +29,24 @@
   width: 100%;
 }
 
+.slide-up {
+  margin-bottom: 10px;
+}
+
+.spread {
+  background: rgba(225, 243, 244, 0.70);
+  width: 100%;
+}
+
 .welcome {
+  font-family: Georgia;
+  font-size: 16px;
   background: url(http://www.planetware.com/photos-large/USNH/usa-new-hampshire-appalachian-trail.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 
@@ -28,7 +60,7 @@
 
 
 /*BEGIN OLD STYLESHEET*/
-
+/*
 body {
   font-family: Georgia;
   font-size: 16px;
@@ -121,4 +153,4 @@ ol li, .indent {
   padding: 10px;
   font-size: 25px;
   text-align: center;
-}
+}*/
