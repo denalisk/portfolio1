@@ -13,3 +13,19 @@ h1.panel {
 .img-sculpt {
   border-radius: 10% 25%;
 }
+
+.proj-row {
+  margin-top: 25px;
+}
+
+.proj-col {
+  border-right: 1px solid #484f47;
+  border-left: 1px solid #484f47;
+  border-radius: 4%;
+  height: 400px;
+}
+
+.proj-col p {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
