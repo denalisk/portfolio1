@@ -1,10 +1,38 @@
+@media (min-width: 770px) {
+  .about {
+    float: right;
+  }
+
+  .middle-col {
+    border-right: 2px dashed darkblue;
+    border-left: 2px dashed darkblue;
+    border-radius: 1%;
+  }
+}
+
 body {
   font-family: trebuchet;
   font-size: 16px;
 }
 
-.about {
-  float: right;
+a img:hover {
+  box-shadow: 5px 5px black;
+}
+
+.back-button {
+  width: 100%
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 0px;
+  border-bottom: 2px solid darkblue;
+  border-radius: 5%;
 }
 
 .center-align {
@@ -17,16 +45,23 @@ body {
   width: 45%;
 }
 
-.jumbotron {
-  background: none;
-}
-
 .project {
-  height: 100%;
+  
 }
 
 .project img {
   width: 100%;
+  border-radius: 10% 25%;
+  margin-bottom: 10px;
+}
+
+.project p, .project ul {
+  font-family: monospace;
+
+}
+
+.required {
+  float: right;
 }
 
 .slide-up {
