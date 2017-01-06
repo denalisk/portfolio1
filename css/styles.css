@@ -1,3 +1,11 @@
+.welcome-container {
+  height: 260px;
+}
+
 .contain-image {
   width: 100%;
+}
+
+h1.panel {
+  background-color: #c3e5c0;
 }
