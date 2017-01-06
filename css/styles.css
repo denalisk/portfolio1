@@ -1,3 +1,8 @@
+body {
+  font-family: Georgia;
+  font-size: 16px;
+}
+
 .welcome-container {
   height: 260px;
 }
@@ -12,6 +17,15 @@ h1.panel {
 
 .img-sculpt {
   border-radius: 10% 25%;
+  padding: 5px;
+}
+
+.proj-img-container {
+  height: 240px;
+}
+
+.proj-img-container img {
+  height: 230px;
 }
 
 .proj-row {
@@ -22,10 +36,13 @@ h1.panel {
   border-right: 1px solid #484f47;
   border-left: 1px solid #484f47;
   border-radius: 4%;
-  height: 400px;
+  height: 450px;
 }
 
 .proj-col p {
   margin-top: 15px;
   margin-bottom: 10px;
+  border-top: 2px dotted #484f47;
+  margin-top: 10px;
+  padding-top: 10px;
 }
